@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+input, button, textarea, select {
+  font-family: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(78, 78, 201, 0.4);
+  border-radius: 10px;
+}
+
+.container .constructor {
+  width: 200px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .constructor label {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+
+.container .constructor select {
+  margin-bottom: 10px;
+}
+
+.fon {
+  display: block;
+  width: calc(100% - 200px);
+  height: 45vw;
+  position: relative;
+  background: url(../img/pervui/fon/fon.png) no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  -webkit-box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.fon img[id] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.changeFasadDown, .changeFasadUP, .changeSten, .stolS, .oboiS{
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  float: left;
+  height: 25px;
+  margin: 2px;
+  width: 25px;
+  
+
+
+}
+
+
+
+
+
